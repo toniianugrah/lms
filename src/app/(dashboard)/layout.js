@@ -49,7 +49,7 @@ export default function DashboardLayout({ children }) {
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2 font-semibold">
-              <LargeLogo className="-ml-1 w-32" />
+              <LargeLogo className="-ml-3 w-32" />
             </Link>
           </div>
           <div className="flex-1">
@@ -89,7 +89,7 @@ export default function DashboardLayout({ children }) {
               <nav className="grid gap-2 font-medium">
                 <Link
                   href="/"
-                  className="-ml-2 mb-4 flex items-center gap-2 font-semibold"
+                  className="-ml-3 mb-4 flex items-center gap-2 font-semibold"
                 >
                   <LargeLogo className="w-32" />
                 </Link>
