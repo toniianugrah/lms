@@ -4,10 +4,10 @@ export const ROUTER_PATH = {
     ROOT: '/students',
   },
   TEACHER: {
-    ROOT: '/teacher',
+    ROOT: '/teachers',
   },
   CLASSES: {
-    ROOT: '/class',
+    ROOT: '/classes',
   },
   CONTENTS: {
     ROOT: '/contents',

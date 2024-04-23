@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useSelectedLayoutSegment } from 'next/navigation';
-import { BellIcon, LogOutIcon, Menu } from 'lucide-react';
+import { BellIcon, LogOutIcon, Menu, SearchIcon } from 'lucide-react';
 import { NAV_LINKS } from '@/config/nav';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
@@ -103,12 +103,15 @@ export default function DashboardLayout({ children }) {
             </SheetContent>
           </Sheet>
           <div className="w-full flex-1">
-            <form>
+            <Button size="icon" variant="outline" className="md:hidden">
+              <SearchIcon className="size-5" />
+            </Button>
+            <form className="hidden md:block">
               <Input
                 type="search"
                 icon="search"
                 placeholder="Search..."
-                className="w-full appearance-none md:w-2/3 lg:w-1/3"
+                className="w-80 appearance-none"
               />
             </form>
           </div>

@@ -25,7 +25,7 @@ export const NAV_LINKS = [
     icon: GraduationCapIcon,
   },
   {
-    title: 'Class',
+    title: 'Classes',
     href: ROUTER_PATH.CLASSES.ROOT,
     icon: SchoolIcon,
   },
