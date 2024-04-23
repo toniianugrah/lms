@@ -41,7 +41,7 @@ const LanguageSelect = ({ className }) => {
             <DropdownMenuItem
               key={lang.short}
               className="flex items-center space-x-2"
-              onClick={() => handleSwitchLocale(lang.short.toLowerCase())}
+              onClick={() => {}}
             >
               <lang.icon className="w-6 rounded-[2px] border border-gray-200" />
               <span>{lang.title}</span>

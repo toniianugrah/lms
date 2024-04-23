@@ -1,5 +1,5 @@
 import {
-  BookIcon,
+  BookOpenIcon,
   CreditCardIcon,
   GraduationCapIcon,
   LayoutDashboardIcon,
@@ -32,7 +32,7 @@ export const NAV_LINKS = [
   {
     title: 'Contents',
     href: ROUTER_PATH.CONTENTS.ROOT,
-    icon: BookIcon,
+    icon: BookOpenIcon,
   },
   {
     title: 'Transactions',
