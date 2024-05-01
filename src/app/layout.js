@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google';
+import { Suspense } from 'react';
 import { NProgress } from '@/components/n-progress';
 import './globals.css';
 
@@ -14,7 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NProgress />
+        <Suspense>
+          <NProgress />
+        </Suspense>
         {children}
       </body>
     </html>
